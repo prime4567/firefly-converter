@@ -3,6 +3,7 @@
         print "Usage: php bca2csv.php <export-file> <year>\n";
         print "<export-file> = Monthly export from klikbca.com\n";
         print "<year> = Year of the file\n";
+        die("ERROR: Missing parameter\n");
     }
 
     $bcafile = $argv[1];
